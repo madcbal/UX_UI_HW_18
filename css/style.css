@@ -40,9 +40,14 @@ footer>ul {
 }
 .flexContainer{
     display: flex;
+    flex-direction: row;
+    background-color: gray;
 }
 .flexContainer>div {
     width: 33%;
-    margin: auto;
-    padding: auto;
+    margin: 5px;
+    padding: 5px;
+    border: 4px;
+    background-color: pink;
 }
+
