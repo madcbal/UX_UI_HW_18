@@ -38,3 +38,11 @@ footer>ul {
     display: inline-block;
     text-align: center;
 }
+.flexContainer{
+    display: flex;
+}
+.flexContainer>div {
+    width: 33%;
+    margin: auto;
+    padding: auto;
+}
